@@ -1,0 +1,64 @@
+/* Calendar container styling */
+.rbc-calendar {
+    border: 1px solid #dee2e6;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* Day cell styling */
+.rbc-day-bg {
+    background-color: #f8f9fa;
+}
+
+/* Event title text */
+.rbc-event-content {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+/* Customize today’s date */
+.rbc-today {
+    background-color: #d4edda !important;
+    border: 2px solid #28a745 !important;
+}
+
+/* Weekdays header */
+.rbc-header {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* Month day numbers */
+.rbc-date-cell {
+    font-weight: bold;
+    color: #495057;
+    padding: 5px;
+}
+
+/* Event hover effect */
+.rbc-event:hover {
+    background-color: #0056b3 !important;
+}
+
+/* Custom event status colors */
+.rbc-event {
+    font-size: 13px;
+    padding: 3px 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Calendar grid styling */
+.rbc-month-view {
+    border-top: 2px solid #dee2e6;
+}
+
+.rbc-month-row {
+    border-bottom: 2px solid #dee2e6;
+}
+
+.rbc-off-range-bg {
+    background-color: #f8f9fa;
+}
